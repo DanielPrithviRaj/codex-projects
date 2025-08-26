@@ -1,0 +1,129 @@
+body{
+    border: 5px solid rgb(0, 116, 25);
+    margin: 1px;
+    padding: 7px;
+    height: 385vh;
+    box-sizing: border-box;
+    background-color: rgb(218, 228, 218);
+}
+
+.title-section{
+    width: 70%;
+    position: relative;
+    left: 175px;
+    bottom: 212px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
+}
+.heading-section{
+    width: 96%;
+    height: 145px;
+    position: absolute;
+    background-color: #f4f4c7;
+    border-radius: 20px;
+    border-color: black;
+    border: solid;
+}
+.logo{
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+}
+nav{
+    position: relative;
+    bottom: 214px;
+    font-size: 18px;
+    padding-block: 10px;
+    background: yellowgreen;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom: outset;
+}
+section{
+    width: 98%;
+    left: 20px;
+    position: relative;
+    top: 230px;
+    font-size: 20px;
+    text-align: justify;
+    color: darkgreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(11, 2, 179);
+    padding: 10px;
+    background-color: yellowgreen;
+}
+table{
+    border-collapse: collapse;
+    width: 85%;
+    margin: 40px 95px;
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    border-style: groove;
+}
+th{
+    border: 3px solid #002907;
+    padding: 8px 2px;
+    text-align: center;
+    color:rgb(0, 0, 142);
+}
+td{
+    padding:10px 10px;
+    text-align: left;
+}
+ tr:hover {
+    background-color: #d1f0d1;  
+}
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+form{
+    padding: 10px;
+    margin: 5px 6px;
+    position: relative;
+}
+.enquery-section{
+    position: relative;
+    padding: 4px;
+    margin: 4px;
+    left:200px;
+    display: flex; 
+    justify-content: center;
+}
+label{
+    position: relative;
+    top: 28px;
+}
+button{
+    position: relative;
+    top: 5px;
+    right: -140px;
+    color: lightcyan;
+    background-color: darkgreen;
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: all-small-caps;
+}
+iframe{
+    padding: 10px 50px;
+    position: absolute;
+    bottom: 115px;
+    right: 220px;
+}
+footer{
+    position: relative;
+    top: 233px;
+}
+.copy{
+    background-color: #589e45;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
