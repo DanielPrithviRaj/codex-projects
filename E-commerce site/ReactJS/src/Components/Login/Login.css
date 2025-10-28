@@ -1,0 +1,85 @@
+
+.header-lbox{
+    background-color: black;
+    text-align: center;
+    width: 99%;
+    font-family: fantasy;
+    margin-left: 0.5%;
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+.content-box {
+   background: #c1c6c7; 
+  /* background-color: #c1c6c766; */
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 455px;       
+  color: rgb(0, 0, 0);
+}
+.layout {
+  display: flex;
+  margin-left: 34%;  
+  align-items: center;      
+  min-height: 75vh;        
+
+}
+/* .container{
+    background: #072d3487;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+    padding: 3rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 80px auto;
+    color: white;
+    margin-right: 45%;
+} */
+.footer-lbox{
+    background-color: black;
+    width: 99%;
+    font-family: math;
+    margin-left: 0.5%;
+    color: aliceblue;
+    font-size: 14px;
+    margin-top: 6%;
+}
+.label-gap{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+.button-log{
+    width: 27%;
+    padding: 0.5rem;
+    margin-left: 122px;
+}
+button[type="button"]{
+    width:150px;
+    position: relative;
+    border-radius: 20px;
+    border: black;
+}
+.input-box {
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 15px;
+}
+.input-cs{
+    display: flex;
+}
+form{
+    margin-top: 5%;
+}
+.h2-cs{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .login-img{
+    background-color:#0080809e;
+}  
